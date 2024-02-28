@@ -27,4 +27,4 @@ jobs:
         run: appcenter distribute release --group Collaborators --app ${{ env.APPCNTER_APP_NAME }} --file ./app/build/outputs/apk/release/app-release.apk --disable-telemetry
 
 env:
-  APPCNTER_APP_NAME: Weidaicheng/Android-Greeting-Jonathan
+  APPCNTER_APP_NAME: Weidaicheng/Android-Greeting-George

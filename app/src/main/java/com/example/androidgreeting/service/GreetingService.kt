@@ -23,7 +23,7 @@ object GreetingService {
 }
 
 interface GreetingApi {
-    @GET("/jonathan")
+    @GET("/george")
     fun greet(): Call<GreetingInfo>
 }
 
