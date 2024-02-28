@@ -20,6 +20,7 @@ object GreetingService {
     val instance: GreetingApi by lazy {
         retrofit.create(GreetingApi::class.java)
     }
+
 }
 
 interface GreetingApi {
